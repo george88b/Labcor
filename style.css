@@ -1,0 +1,201 @@
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+    font-weight: normal;
+}
+
+#logo {
+width:38%;
+height: 38%;
+float:left;
+padding-left:1%;
+padding-top:1%;
+
+}
+
+#nav_container {
+text-align:center;
+margin-right:10%;
+float:left;
+}
+
+#nav_container li {
+display:inline-block;
+padding-right:20px;
+text-align:center;
+margin-top:5%;
+}
+
+#nav_container li a{
+text-decoration:none;
+border:2px solid #B5CFBF;
+border-radius: 10px;
+padding-top:7px;
+padding-bottom: 7px;
+padding-right: 10px;
+padding-left: 10px;
+background-color:#DFFFEB;
+}
+
+#textcontentl {
+border:2px solid #B5CFBF;
+display:inline;
+float:left;
+margin:5px;
+padding:5px;
+width:85%;
+background: white;
+box-shadow: 1px 2px 5px #999;
+}
+
+#textcontentl i {
+font-size:17px;
+}
+
+#textcontentr{
+border:2px solid #B5CFBF;
+display:inline;
+float:right;
+margin:5px;
+margin-right:20px;
+padding:5px;
+width:10%;
+background: white;
+clear:right;
+box-shadow: 1px 2px 5px #999;
+}
+
+#textcontentb {
+border:2px solid #B5CFBF;
+display:inline;
+float:left;
+margin:5px;
+padding:5px;
+width:97.5%;
+background: white;
+clear:both;
+text-align:center;
+}
+
+#imagecontainer{
+
+padding:3px;
+}
+
+#image{
+border:3px solid #B5CFBF;
+padding:1px;
+margin-top:4px;
+margin-bottom:4px;
+margin-right:10px;
+margin-left:4px;
+float:left;
+}
+
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #6dc29c) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #6dc29c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#6dc29c');
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #bdb9bd;
+	display:inline-block;
+	color:#706e70;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6dc29c), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #6dc29c 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6dc29c', endColorstr='#ffffff');
+	background-color:#6dc29c;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.rollover_img {
+width: 280px;
+height: 150px;
+background-image: url(http://labcormaterials.com/images/titrator.jpg); 
+background-position: top;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border:6px solid #ccc;
+font:13px normal Arial, Helvetica, sans-serif;
+line-height:18px;
+float:left;
+margin:0 10px 10px 0;
+}
+
+.rollover_img a {
+color: #fff;
+width: 280px;
+height: 150px;
+display: block;
+text-decoration: none;
+}
+
+.rollover_img a:hover {
+background:#000;
+opacity:.60;
+filter:alpha(opacity=60);
+}
+
+.rollover_img a span {
+display: none;
+width: 280px;
+padding:5px;
+}
+
+.rollover_img a:hover span {
+
+display: block;
+}
+
+#navbar{
+width:auto;
+height:36px;
+background:url(img/navbar-bg.png) left top repeat-x; }
+#navbar .inbar{
+display:block;
+height:36px;
+background:url(img/right-round.png) right top no-repeat; }
+
+#navbar ul li{
+float:left;
+display:block;
+line-height:36px; } 
+#navbar ul li a{
+color:#403e32;
+text-decoration:none;
+font-weight:bold;
+display:block; } 
+
+#navbar ul li a span{
+padding:0 20px 0 0;
+height:36px;
+line-height:36px;
+display:block;
+margin-left:20px; }
+
+#navebar ul li a:active {
+background:white;
+}
+
+#navbar ul li a:hover{
+background:white;
+border:2px solid #B5CFBF;
+border-radius: 15px;
+height:36px;
+line-height:36px; } 
